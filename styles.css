@@ -1,0 +1,132 @@
+/* color pallette
+    - giants orange #FE5D26 rgb(254,93,38)
+    - earth yellow  #F2C078 rgb(242,192,120)
+    - dutch white #FAEDCA rgb(250,237,202)
+    - tea green #C1DBB3 rgb(193,219,179)
+    - emerald #7EBC89 rgb(126,188,137)
+*/
+
+/* font family
+    -Poppins
+    -Space Mono
+    -Abril Fatface */
+
+body {
+  margin: 0px 10px;
+}
+
+h1 {
+    font-family: "Abril Fatface";
+}
+
+h2 {
+    font-family: "Space Mono";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+/* Colors */
+
+.colors-container {
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 400px;
+}
+
+.colors-container p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#giants-orange {
+    background-color: #FE5D26;
+    justify-items: center;
+}
+
+#earth-yellow {
+    background-color: #F2C078;
+    justify-items: center;
+}
+
+#dutch-white {
+    background-color: #FAEDCA;
+    justify-items: center;
+}
+
+#tea-green {
+    background-color: #C1DBB3;
+    justify-items: center;
+}
+
+#emerald {
+    background-color: #7EBC89;
+    justify-items: center;
+}
+
+/* Fonts */
+
+.fonts-container {
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.font-name {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.font-styles li {
+    padding-bottom: 5px;
+}
+
+#poppins {
+    font-family: "Poppins";
+}
+
+#abril-fatface {
+    font-family: "Abril Fatface";
+}
+
+#space-mono {
+    font-family: "Space Mono";
+}
+
+.font-styles {
+    list-style: none;
+}
+
+.font-bold {
+    font-weight: 900;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+/* Text Styles */
+
+.text-styles {
+    border: solid 1px black;
+    padding-left: 10px;
+}
+
+#heading {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Abril Fatface";
+}
+
+#subheading {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Space Mono";
+}
